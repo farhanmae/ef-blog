@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `ef Blog`,
+    title: `EF Blog`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp"
+  ]
 }
